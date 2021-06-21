@@ -1,0 +1,16 @@
+.duong-dan{
+    margin-bottom: 10px;
+    background-color: #FFF;
+    font-size: 14px;
+}
+.duong-dan1{
+    list-style-type: none;
+}
+.duong-dan1 > li{
+    display: inline-block;
+    padding: 5px;
+}
+.duong-dan > li + li:before {
+    color: #ccc;
+    content: "/\00a0";
+}
