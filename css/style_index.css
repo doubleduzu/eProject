@@ -1,0 +1,48 @@
+h2 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+    .content-education-img{
+        justify-content: center;
+        padding: 5% 5%;
+    }
+
+    .ultilities {
+        justify-content: center;
+        padding: 20px 30%;
+        height: min-content;
+    }
+    
+    .content-news-event {  
+        padding: 20px 30%;  
+        height: min-content;
+        justify-content: center;
+        background-color: brown;
+        height: 500px;
+        border: 1px solid brown;
+    }
+    .container-footer {
+        display: flex;
+        flex-direction: row;
+        padding:  2% 10%;
+        background-color: cornflowerblue;   
+    }
+
+    footer {
+      background-color: #0077B8;
+      padding: 5%;
+    }
+
+    .tencs {
+      color: white;
+    }
+
+    .tencs-diachi {
+      color:white;
+    }
+
+    .tencs-dienthoai {
+      color:white;
+    }
