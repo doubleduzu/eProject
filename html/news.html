@@ -61,8 +61,8 @@
 
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <input id="box-search" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" onkeyup="myFunction()">
+                    <button id="btn" onclick="myFunction()" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
                 </div>
         </nav>
@@ -246,6 +246,19 @@
                 </div>
             </div>
         </div>
+        <script>
+            function myFunction() {
+                $(document).ready(function() {
+                    $('#btn').on('click', function(event) {
+                        event.preventDefault();
+                        var tukhoa = $('#box-search').val().toLowerCase();
+                        $('.row').filter(function() {
+                            $(this).toggle($(this).text().toLowerCase().indexOf(tukhoa) > -1);
+                        });
+                    });
+                });
+            }
+        </script>
 </body>
 
 </html>
