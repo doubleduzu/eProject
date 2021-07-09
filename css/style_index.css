@@ -1,48 +1,34 @@
 h2 {
-        text-align: center;
-    }
-    p {
-        text-align: center;
-    }
-    .content-education-img{
-        justify-content: center;
-        padding: 5% 5%;
-    }
+    text-align: center;
+}
 
-    .ultilities {
-        justify-content: center;
-        padding: 20px 30%;
-        height: min-content;
-    }
-    
-    .content-news-event {  
-        padding: 20px 30%;  
-        height: min-content;
-        justify-content: center;
-        background-color: brown;
-        height: 500px;
-        border: 1px solid brown;
-    }
-    .container-footer {
-        display: flex;
-        flex-direction: row;
-        padding:  2% 10%;
-        background-color: cornflowerblue;   
-    }
+p {
+    text-align: center;
+}
 
-    footer {
-      background-color: #0077B8;
-      padding: 5%;
-    }
+.content-education-img {
+    justify-content: center;
+    padding: 5% 5%;
+}
 
-    .tencs {
-      color: white;
-    }
+.ultilities {
+    justify-content: center;
+    padding: 20px 30%;
+    height: min-content;
+}
 
-    .tencs-diachi {
-      color:white;
-    }
+.content-news-event {
+    padding: 20px 30%;
+    height: min-content;
+    justify-content: center;
+    background-color: brown;
+    height: 500px;
+    border: 1px solid brown;
+}
 
-    .tencs-dienthoai {
-      color:white;
-    }
+.container-footer {
+    display: flex;
+    flex-direction: row;
+    padding: 2% 10%;
+    background-color: cornflowerblue;
+}
