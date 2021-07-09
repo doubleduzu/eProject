@@ -1,0 +1,238 @@
+/* Reset CSS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+/* Breadcrumb */
+.breadcrumb-list {
+  list-style-type: none;
+  margin: 10px 15%;
+}
+
+.breadcrumb-list li {
+  display: inline-block;
+  padding: 16px 0;
+}
+
+.breadcrumb-list li a {
+  text-decoration: none;
+  color: #2196de;
+}
+
+/* Take <li> not last child of .breadcrumb-list and after li assignment content: ">" */
+.breadcrumb-list li:not(:last-child):after {
+  content: '>';
+  padding: 0 10px;
+  font-weight: bold;
+}
+/* End Breadcrumb */
+
+/* Content */
+.payment {
+  width: 70%;
+  margin: 0 auto;
+  border-color: #cccccc;
+  border-radius: 20px;
+}
+
+.payment-heading {
+  font-size: 30px;
+  font-weight: 600;
+  color: #f09642;
+}
+
+.payment button {
+  width: 30%;
+  margin: 22px 100px;
+  cursor: pointer;
+  font-size: 22px;
+  height: 50px;
+  border: none;
+  font-weight: 500;
+  border-radius: 10px;
+
+  /* Transition */
+  background-image: linear-gradient(to right, #bfbfbf 50%, #22dd38 50%);
+  background-size: 200%;
+  transition: background-position 1s;
+  -moz-transition: background-position 1s;
+  -o-transition: background-position 1s;
+  -webkit-transition: background-position 1s;
+  -ms-transition: background-position 1s;
+}
+
+.payment button:hover {
+  background-position: -100% 0;
+  -moz-background-position: -100% 0;
+  -o-background-position: -100% 0;
+  -webkit-background-position: -100% 0;
+  -ms-background-position: -100% 0;
+}
+
+.payment button img {
+  width: 30px;
+  height: 30px;
+  margin: -5px 10px;
+}
+
+.method-content {
+  width: 70%;
+  margin: 10px auto;
+  position: relative;
+}
+
+.method-content p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.method-content-2 {
+  top: -12px;
+  display: none;
+}
+
+.method-content-1 ul {
+  text-align: center;
+}
+
+.method-content-1 ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+.method-content-1 ul li a {
+  text-decoration: none;
+  color: #1b7ab4;
+  font-weight: bold;
+}
+
+.method-content-1 ul li:hover {
+  text-shadow: 1px 1px #868383fd;
+}
+
+.ro-img {
+  width: 100%;
+  display: block;
+  margin: 20px auto;
+}
+
+.method-content .office-time {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.method-content .office-time li {
+  display: block;
+  list-style-type: disc;
+  padding-left: 70px;
+}
+
+.method-content .office-time li:hover {
+  cursor: auto;
+  text-shadow: none;
+}
+
+.method-content-1 {
+  display: none;
+}
+
+.method-2 {
+  margin: 0 auto;
+  width: 80%;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.method-2 tr td {
+  border: 2px solid black;
+}
+
+.method-2 tr ul {
+  margin-left: 20px;
+}
+.method-2 tr ul li {
+  line-height: 30px;
+}
+
+.method-content-2 ul li {
+  margin-left: 50px;
+}
+
+.method-content-2 > strong {
+  color: red;
+  position: relative;
+  animation: myAnimation 2s cubic-bezier(0.1, -0.6, 0.2, 0) 2s 1 normal;
+  -webkit-animation: myAnimation 2s cubic-bezier(0.1, -0.6, 0.2, 0) 2s 1 normal;
+  -o-animation: myAnimation 2s cubic-bezier(0.1, -0.6, 0.2, 0) 2s 1 normal;
+  -ms-animation: myAnimation 2s cubic-bezier(0.1, -0.6, 0.2, 0) 2s 1 normal;
+  -moz-animation: myAnimation 2s cubic-bezier(0.1, -0.6, 0.2, 0) 2s 1 normal;
+}
+
+@keyframes myAnimation {
+  from {
+    left: 300px;
+  }
+  to {
+    left: 0;
+  }
+}
+
+@-moz-keyframes myAnimation {
+  from {
+    left: 300px;
+  }
+  to {
+    left: 0;
+  }
+}
+
+@-ms-keyframes myAnimation {
+  from {
+    left: 300px;
+  }
+  to {
+    left: 0;
+  }
+}
+
+@-o-keyframes myAnimation {
+  from {
+    left: 300px;
+  }
+  to {
+    left: 0;
+  }
+}
+
+@-webkit-keyframes myAnimation {
+  from {
+    left: 300px;
+  }
+  to {
+    left: 0;
+  }
+}
+/* End Content */
+
+/* Scroll top */
+#scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  cursor: pointer;
+  display: none;
+  border: none;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 24px;
+}
+
+#scroll-top img {
+  width: 40px;
+  height: 40px;
+}
+/* End scroll top */

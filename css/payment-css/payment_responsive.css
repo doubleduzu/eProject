@@ -1,0 +1,95 @@
+/* Mobile */
+@media screen and (max-width: 739px) {
+  .breadcrumb-list {
+    margin: 10px 10%;
+  }
+
+  .payment {
+    width: 100%;
+    border: none;
+    text-align: center;
+  }
+
+  .payment button {
+    height: 100px;
+    margin: 22px 30px;
+  }
+
+  .payment .button1 {
+    float: left;
+  }
+
+  .payment .button2 img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .method-content {
+    width: 100%;
+  }
+
+  .method-content .office-time {
+    margin-left: 5px;
+  }
+
+  .method-content .office-time li {
+    padding-left: 20px;
+  }
+
+  .method-2 tr ul li {
+    line-height: 20px;
+  }
+
+  .method-2 tr ul {
+    list-style-type: none;
+  }
+
+  .method-content-2 tr ul li {
+    margin: 0 0;
+  }
+
+  .method-2 tr td:first-child img {
+    width: 0;
+  }
+
+  .method-2 {
+    border: none;
+  }
+
+  .method-2 tr td {
+    border: none;
+  }
+
+  .method-content-2 ul li {
+    margin: 10px 20px;
+    text-align: justify;
+    line-height: 20px;
+  }
+}
+/* End Mobile */
+
+/* Tablet */
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+  .method-2 tr td:first-child img {
+    width: 0;
+  }
+
+  .method-2 {
+    border: none;
+  }
+
+  .method-2 tr td {
+    border: none;
+  }
+
+  .payment button {
+    height: 100px;
+    width: 18%;
+    margin: 22px 84px;
+  }
+
+  .method-content {
+    width: 100%;
+  }
+}
+/* End Tablet */
