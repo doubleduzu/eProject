@@ -4,15 +4,21 @@ h2 {
     p {
         text-align: center;
     }
+
+    .content-education-text{
+        justify-content: center;
+    }
+
     .content-education-img{
         justify-content: center;
-        padding: 5% 5%;
+        padding: 5% 8%;
     }
 
     .ultilities {
         justify-content: center;
         padding: 20px 30%;
         height: min-content;
+        
     }
     
     .content-news-event {  
@@ -31,18 +37,35 @@ h2 {
     }
 
     footer {
-      background-color: #0077B8;
-      padding: 5%;
+      background-color: #043550; 
+      padding: 3%;
     }
 
     .tencs {
       color: white;
     }
 
-    .tencs-diachi {
-      color:white;
+    /* Scroll top */
+    #btn-scroll-top {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 35px;
+        cursor: pointer;
+        border: none;
+        background-color: #fff;
+        border-radius: 24px;
+        width: 40px;
+        height: 40px;
     }
 
-    .tencs-dienthoai {
-      color:white;
+    #btn-scroll-top:hover {
+        background-color: rgb(221, 141, 141);
     }
+
+    #img_scroll {
+        width: 30px;
+        height: 32px;
+    }
+  /* End scroll top */
+
