@@ -8,7 +8,7 @@ function contact() {
         alert("Please fill all your information");
         return;
     }
-    var patt_name = /^[A-Z]\w{5,}$/
+    var patt_name = /^[A-Z]\w{4,}$/
     var result = patt_name.test(name);
     if (result == false) {
         alert("Uppercase first character and at least 5 character");
