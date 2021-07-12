@@ -1,6 +1,10 @@
 function buyNow() {
     var fullName = document.getElementById("fullName").value;
     var email = document.getElementById("mail").value;
+    if (email == false) {
+        alert("Wrong type email");
+        return
+    }
     var phone = document.getElementById("phone").value;
     if (fullName == "" || email == "" || phone == "") {
         alert("Please fill your information");
