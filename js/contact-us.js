@@ -13,6 +13,12 @@ function contact() {
         document.getElementById("phone").focus();
         return
     }
+    var patt_phone = /^{10,}$/
+    var pone = patt_phone.test("phone");
+    if (pone == false) {
+        alert("Phone number must have at least 10 numbers");
+        return
+    }
     var choice = confirm("Information" + "\nName: " + name + "\nEmail: " + email + "\nPhone: " + phone + "\nSubject: " + subject + "\nMessage: " + message)
     if (choice == 1) {
         alert("Your Information was sent");
