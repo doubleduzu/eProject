@@ -14,14 +14,14 @@ function contact() {
         return
     }
     var patt_phone = /[0-9]{10,11}/
-    var result = patt_phone.test("phone");
+    var result = patt_phone.test(phone);
     if (result == false) {
         alert("Phone number must have at least 10 numbers");
         document.getElementById("phone").focus();
         return false
     }
     var patt_email = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/
-    result = patt_email.test("email");
+    result = patt_email.test(email);
     if (result == false) {
         alert("Please enter follow email form");
         document.getElementById("email").focus();
