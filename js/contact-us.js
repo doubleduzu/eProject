@@ -8,6 +8,12 @@ function contact() {
         alert("Please fill all your information");
         return;
     }
+    var patt_name = /^[A-Z]\w{5,}$/
+    var result = patt_name.test(fullName);
+    if (result == false) {
+        alert("Uppercase first character and at least 5 character");
+        return
+    }
     var patt_email = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/
     result = patt_email.test(email);
     if (result == false) {
@@ -21,7 +27,7 @@ function contact() {
         return
     }
     var patt_phone = /[0-9]{10,}/
-    var result = patt_phone.test(phone);
+    result = patt_phone.test(phone);
     if (result == false) {
         alert("Phone number must have at least 10 numbers");
         document.getElementById("phone").focus();
