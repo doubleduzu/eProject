@@ -13,7 +13,7 @@ function contact() {
         document.getElementById("phone").focus();
         return
     }
-    var patt_phone = /[0-9]{10,11}/
+    var patt_phone = /[0-9]{10,}/
     var result = patt_phone.test(phone);
     if (result == false) {
         alert("Phone number must have at least 10 numbers");
