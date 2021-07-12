@@ -9,7 +9,7 @@ function contact() {
         return;
     }
     var patt_name = /^[A-Z]\w{5,}$/
-    var result = patt_name.test(fullName);
+    var result = patt_name.test(name);
     if (result == false) {
         alert("Uppercase first character and at least 5 character");
         return
