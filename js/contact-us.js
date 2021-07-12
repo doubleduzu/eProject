@@ -20,6 +20,13 @@ function contact() {
         document.getElementById("phone").focus();
         return
     }
+    var patt_email = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/
+    result = patt_email.test("email");
+    if (result == false) {
+        alert("Please enter follow email form");
+        document.getElementById("email").focus();
+        return
+    }
     var choice = confirm("Information" + "\nName: " + name + "\nEmail: " + email + "\nPhone: " + phone + "\nSubject: " + subject + "\nMessage: " + message)
     if (choice == 1) {
         alert("Your Information was sent");
