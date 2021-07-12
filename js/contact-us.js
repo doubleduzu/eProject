@@ -2,16 +2,17 @@ function contact() {
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
     var phone = document.getElementById("phone").value;
-    if (isNaN(phone)) {
-        alert("Phone must be a number");
-        document.getElementById("phone").focus();
-        return
-    }
+
     var subject = document.getElementById("subject").value;
     var message = document.getElementById("message").value;
     if (name == '' || email == '' || phone == '' || subject == '' || message == '') {
         alert("Please fill all your information");
         return;
+    }
+    if (isNaN(phone)) {
+        alert("Phone must be a number");
+        document.getElementById("phone").focus();
+        return
     }
     alert("Information" + "\nName: " + name + "\nEmail: " + email + "\nPhone: " + phone + "\nSubject: " + subject + "\nMessage: " + message);
 }
