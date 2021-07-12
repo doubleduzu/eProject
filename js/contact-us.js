@@ -18,7 +18,7 @@ function contact() {
     if (result == false) {
         alert("Phone number must have at least 10 numbers");
         document.getElementById("phone").focus();
-        return
+        return false
     }
     var patt_email = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/
     result = patt_email.test("email");
