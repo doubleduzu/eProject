@@ -3,7 +3,7 @@ function buyNow() {
     var email = document.getElementById("mail").value;
     var phone = document.getElementById("phone").value;
     if (fullName == "" || email == "" || phone == "") {
-        alert("Please fill all box");
+        alert("Please fill your information");
         return;
     }
     var choice = confirm("Information" + "\nName: " + fullName + "\nEmail: " + email + "\nPhone: " + phone + "\n\nAre you sure to buy this course ?");
