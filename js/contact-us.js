@@ -22,5 +22,6 @@ function contact() {
     var choice = confirm("Information" + "\nName: " + name + "\nEmail: " + email + "\nPhone: " + phone + "\nSubject: " + subject + "\nMessage: " + message)
     if (choice == 1) {
         alert("Your Information was sent");
+        return
     }
 }
