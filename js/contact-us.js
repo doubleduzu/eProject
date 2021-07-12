@@ -10,6 +10,7 @@ function contact() {
     }
     if (isNaN(phone)) {
         alert("Phone must be a number");
+        document.getElementById("phone").focus();
         return
     }
     var choice = confirm("Information" + "\nName: " + name + "\nEmail: " + email + "\nPhone: " + phone + "\nSubject: " + subject + "\nMessage: " + message)
