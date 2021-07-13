@@ -64,5 +64,5 @@ function signUp() {
 function resetPassword() {
     var remail = document.getElementById("resetEmail").value;
     alert("Your email is " + remail + "\n\nNew password was sent to your email " + "\nPlease check your mail!!");
-    window.location.href = "siginin.html";
+    return
 }
