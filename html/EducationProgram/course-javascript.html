@@ -94,6 +94,7 @@
                                     <a class="nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">About course</a>
                                     <a class="nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Structure</a>
                                     <a class="nav-link" id="nav-profile-tab2" data-toggle="tab" href="#nav-profile2" role="tab" aria-controls="nav-profile" aria-selected="false">Teacher</a>
+                                    <a class="nav-link" id="nav-profile-tab3" data-toggle="tab" href="#nav-profile3" download role="tab" aria-controls="nav-profile" aria-selected="false">Download</a>
                                 </div>
                             </nav>
                             <div class="tab-content" id="nav-tabContent">
@@ -102,34 +103,39 @@
                                         <p>This is a front to back JavaScript course for <em><strong>a</strong><strong>bsolutely everybody</strong></em><strong>.</strong> We start with the basic fundamentals and work our way to advanced programming WITHOUT
                                             relying on frameworks or libraries at all. You will learn a ton of pure JavaScript,&nbsp;whether you are a&nbsp;beginner or an established JS programmer. There is something for everyone...</p>
                                         <p><br></p>
-                                        <p><strong><em>#### WHATS&nbsp;INCLUDED? ####</em></strong></p>
-                                        <ul>
-                                            <li><strong>Basics &amp; Fundamentals:</strong> Data types, let &amp; const variables, functions, conditionals, loops, object literals, arrays, etc</li>
-                                            <li><strong>DOM Manipulation: </strong>Selectors, traversing the DOM, show/hide, creating &amp; removing elements, event listeners</li>
-                                            <li><strong>OOP:</strong> ES5 prototypes, inheritance, ES2015 classes &amp; sub-classes, constructors</li>
-                                            <li><strong>Async JS: </strong>Ajax &amp; XHR, Fetch API, callbacks, promises, async / await</li>
-                                            <li><strong>ES2015+: </strong>Arrow functions, template strings, generators, iterators, maps &amp; sets, symbols &amp; more</li>
-                                            <li><strong>JavaScript Patterns:</strong>&nbsp;Module, Factory, State, Observer, Mediator, Singleton</li>
-                                            <li><strong>Other: </strong>Local &amp; session storage, regular expressions, try/catch error handling</li>
-                                            <li><strong>10 Projects of all kinds</strong></li>
-                                        </ul>
-                                        <p><br></p>
-                                        <ul></ul>
-                                        <p><br></p>
-                                        <p><strong><em>#### PROJECTS ####</em></strong></p>
-                                        <ol>
-                                            <li>Task List With Local Storage</li>
-                                            <li>Loan Calculator</li>
-                                            <li>Number Guess Game</li>
-                                            <li>OOP Book Listing App (ES5 Prototype &amp; ES2015 Classes Version)</li>
-                                            <li>Chuck Norris Joke Generator</li>
-                                            <li>EasyHTTP - Custom HTTP Library (3 Versions -&nbsp;Callbacks / Promises / Async &amp; Await)</li>
-                                            <li>Github Finder</li>
-                                            <li>WeatherJS App</li>
-                                            <li>Calorie Tracker (Module Pattern)</li>
-                                            <li>Microposts - Frontend CRUD for REST&nbsp;API (Webpack &amp; Babel)</li>
-                                        </ol>
-                                        <p><br></p>
+                                        <div style="display: none;" id="readmore">
+                                            <p><strong><em>#### WHATS&nbsp;INCLUDED? ####</em></strong></p>
+                                            <ul>
+                                                <li><strong>Basics &amp; Fundamentals:</strong> Data types, let &amp; const variables, functions, conditionals, loops, object literals, arrays, etc</li>
+                                                <li><strong>DOM Manipulation: </strong>Selectors, traversing the DOM, show/hide, creating &amp; removing elements, event listeners</li>
+                                                <li><strong>OOP:</strong> ES5 prototypes, inheritance, ES2015 classes &amp; sub-classes, constructors</li>
+                                                <li><strong>Async JS: </strong>Ajax &amp; XHR, Fetch API, callbacks, promises, async / await</li>
+                                                <li><strong>ES2015+: </strong>Arrow functions, template strings, generators, iterators, maps &amp; sets, symbols &amp; more</li>
+                                                <li><strong>JavaScript Patterns:</strong>&nbsp;Module, Factory, State, Observer, Mediator, Singleton</li>
+                                                <li><strong>Other: </strong>Local &amp; session storage, regular expressions, try/catch error handling</li>
+                                                <li><strong>10 Projects of all kinds</strong></li>
+                                            </ul>
+                                            <p><br></p>
+                                            <ul></ul>
+                                            <p><br></p>
+                                            <p><strong><em>#### PROJECTS ####</em></strong></p>
+                                            <ol>
+                                                <li>Task List With Local Storage</li>
+                                                <li>Loan Calculator</li>
+                                                <li>Number Guess Game</li>
+                                                <li>OOP Book Listing App (ES5 Prototype &amp; ES2015 Classes Version)</li>
+                                                <li>Chuck Norris Joke Generator</li>
+                                                <li>EasyHTTP - Custom HTTP Library (3 Versions -&nbsp;Callbacks / Promises / Async &amp; Await)</li>
+                                                <li>Github Finder</li>
+                                                <li>WeatherJS App</li>
+                                                <li>Calorie Tracker (Module Pattern)</li>
+                                                <li>Microposts - Frontend CRUD for REST&nbsp;API (Webpack &amp; Babel)</li>
+                                            </ol>
+                                            <p><br></p>
+                                        </div>
+                                        <p class="text-right">
+                                            <a id="readMoreC">Read more...</a>
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="tab-pane fade my-5 mx-3" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab2">
@@ -163,6 +169,12 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div style="margin-bottom: -200px;" class="tab-pane fade container my-5 mx-3" id="nav-profile3" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                    <div class="card w-50 border border-white">
+                                        <h5><b>Download document for the course JavaScript here:</b></h5>
+                                        <a href="../../img/logo.png" download=""><img src="../../img/download.png" class="card-img-top img-fluid" alt="..."></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-4 my-5">
@@ -179,7 +191,7 @@
                                     <label for="inputAddress">Phone</label>
                                     <input type="text" class="form-control" id="phone">
                                 </div>
-                                <p class="h2 font-weight-bold">$39.99</p>
+                                <p class="h2 font-weight-bold text-right">$89.99</p>
                                 <input onclick="buyNow()" value="Buy Now" class="btn btn-danger btn-lg btn-block" type="submit">
                             </form>
                         </div>
@@ -246,6 +258,24 @@
             <script src="../../js/Education.js"></script>
             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+            <script>
+                $(document).ready(function() {
+                    $("#readMoreC").css("color", "blue")
+                    $("#readMoreC").css("font-style", "italic")
+                    $("#readMoreC").hover(function() {
+                        $("#readMoreC").css("cursor", "pointer");
+                    });
+                    $("#readMoreC").mouseenter(function() {
+                        $("#readMoreC").css("color", "red")
+                    });
+                    $("#readMoreC").mouseleave(function() {
+                        $("#readMoreC").css("color", "blue")
+                    });
+                    $("#readMoreC").click(function() {
+                        $("#readmore").toggle()
+                    });
+                });
+            </script>
 </body>
 
 </html>
