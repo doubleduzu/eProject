@@ -74,17 +74,20 @@
 }
 
 .btn-submit:hover {
-    background-color: rgb(102, 255, 102);
+    background-color: rgb(88, 255, 88);
 }
 
-.row2-col2 input,
-textarea {
-    background-color: #8cd1fc;
+.row2-col2 textarea {
+    background-color: #cccccc;
     color: rgb(0, 0, 0);
     font-size: 20px;
-    font-weight: bold;
     resize: none;
-    border: none;
+    border: 1px black solid;
+}
+
+.row2-col2 input {
+    background-color: #cccccc;
+    color: rgb(0, 0, 0);
 }
 
 @media screen and (min-width: 740px) and (max-width: 1023px) {
